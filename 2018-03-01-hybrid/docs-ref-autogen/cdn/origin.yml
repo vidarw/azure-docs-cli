@@ -32,10 +32,10 @@ items:
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
   source:
-    path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
+    path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/help.yaml
     remote:
       branch: feature/HelpUpdate
-      path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
+      path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/help.yaml
       repo: https://github.com/Azure/azure-cli.git
 - uid: az_cdn_origin_show
   name: az cdn origin show
@@ -65,10 +65,10 @@ items:
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
   source:
-    path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
+    path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/help.yaml
     remote:
       branch: feature/HelpUpdate
-      path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
+      path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/help.yaml
       repo: https://github.com/Azure/azure-cli.git
 commands:
 - uid: az_cdn_origin_list
@@ -91,9 +91,9 @@ globalParameters:
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
 doc_source_url_repo: https://github.com/Azure/azure-cli/blob/feature/HelpUpdate/
-doc_source_url_path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/feature/HelpUpdate/src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/c9fe2efc878a45fdefaec59d42ab7e47912fba24/src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-updated_at: 8/16/2018 5:04:10 PM
-ms.date: 08/16/2018
+doc_source_url_path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/help.yaml
+original_content_git_url: https://github.com/Azure/azure-cli/blob/feature/HelpUpdate/src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/help.yaml
+gitcommit: https://github.com/Azure/azure-cli/blob/b216212bb7661637b809258118f53da0b4875364/src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/help.yaml
+updated_at: 1/23/2019 10:02:50 PM
+ms.date: 01/23/2019
 description: List or show existing origins related to CDN endpoints.
